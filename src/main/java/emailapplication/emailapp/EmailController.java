@@ -38,7 +38,7 @@ public class EmailController {
         Session session = Session.getInstance(props, new javax.mail.Authenticator() {
             @Override
             protected PasswordAuthentication getPasswordAuthentication() {
-                return new PasswordAuthentication("azzamjafri98@gmail.com", "2992652jafri");
+                return new PasswordAuthentication("azzamjafri98@gmail.com", "<your password here>");
             }
         });
 
